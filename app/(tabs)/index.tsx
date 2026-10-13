@@ -1,4 +1,4 @@
-import { Button } from "@react-navigation/elements";
+import { Button } from "expo-router/react-navigation";
 import { Link } from "expo-router";
 import { linkTo } from "expo-router/build/global-state/routing";
 import { addDoc, collection } from "firebase/firestore";

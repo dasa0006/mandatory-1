@@ -1,6 +1,6 @@
 # WARNING
 
-the npm script "start" has the flag "--tunnel" enabled as developement of this app was done via wsl2.
+The npm script "start" has the flag "--tunnel" enabled as developement of this app was done via wsl2.
 to run the dev instance of this app remove "--tunnel" from the start script
 
 // Without wsl2 tunnel enabled

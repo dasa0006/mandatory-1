@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+# local pnpm content-addressable store
+.pnpm-store/
+
 # Expo
 .expo/
 dist/
