@@ -1,3 +1,26 @@
+# WARNING
+
+the npm script "start" has the flag "--tunnel" enabled as developement of this app was done via wsl2.
+to run the dev instance of this app remove "--tunnel" from the start script
+
+// Without wsl2 tunnel enabled
+
+```bash
+"scripts": {
+   "start": "expo start",
+   ...
+}
+```
+
+// With wsl2 tunnel enabled
+
+```bash
+"scripts": {
+   "start": "expo start -- --tunnel",
+   ...
+}
+```
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
